@@ -25,9 +25,6 @@
     "config": {
         "bin-dir": "bin"
     },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0"
-        }
-    }
+    "type": "library",
+    "version": "1.0.0"
 }
