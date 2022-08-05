@@ -6,25 +6,22 @@ A Google Cloud Storage adapter for [flysystem](https://github.com/thephpleague/f
 [![Build Status](https://img.shields.io/travis/Superbalist/flysystem-google-cloud-storage/master.svg?style=flat-square)](https://travis-ci.org/Superbalist/flysystem-google-cloud-storage)
 [![StyleCI](https://styleci.io/repos/44370843/shield?branch=style-ci)](https://styleci.io/repos/44370843)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
-[![Packagist Version](https://img.shields.io/packagist/v/superbalist/flysystem-google-storage.svg?style=flat-square)](https://packagist.org/packages/superbalist/flysystem-google-storage)
-[![Total Downloads](https://img.shields.io/packagist/dt/superbalist/flysystem-google-storage.svg?style=flat-square)](https://packagist.org/packages/superbalist/flysystem-google-storage)
-
 
 ## Installation
 
 ```bash
-composer require superbalist/flysystem-google-storage
+composer require gastroplanner/flysystem-google-storage
 ```
 
 ## Integrations
 
 Want to get started quickly? Check out some of these integrations:
 
-* Laravel - https://github.com/Superbalist/laravel-google-cloud-storage
+-   Laravel - https://github.com/Gastroplanner/laravel-google-cloud-storage
 
 ## Usage
 
-```php
+````php
 use Google\Cloud\Storage\StorageClient;
 use League\Flysystem\Filesystem;
 use Superbalist\Flysystem\GoogleStorage\GoogleStorageAdapter;
@@ -91,7 +88,7 @@ $filesystem->copy('filename.txt', 'duplicate.txt');
 $filesystem->deleteDir('path/to/directory');
 
 // see http://flysystem.thephpleague.com/api/ for full list of available functionality
-```
+````
 
 ## Google Storage specifics
 
